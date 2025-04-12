@@ -1,27 +1,6 @@
 /*==================================
-* Author        : "ThemeSine"
-* Template Name :  Browny  HTML Template
 * Version       : 1.0
 ==================================== */
-
-/*==================================
-font-family: 'Poppins', sans-serif;
-==================================== */
-
-
-/*=========== TABLE OF CONTENTS ===========
-1.  General css (Reset code)
-2.  Header
-3.  Welcome-hero
-4.  About me 
-5.  Education
-6.  Skill
-7.  Experience
-8.  Profiles
-9.  Portfolio
-10. Clients
-11. Contact
-
 /*-------------------------------------
 		1.General css (Reset code)
 --------------------------------------*/
@@ -173,7 +152,7 @@ nav.navbar.bootsnav .navbar-toggle {
     padding: 10px;
     top: 0;
 }
-nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
+nav.navbar.bootsnav .navbar-toggle i{color:  #1f2c6c;}
 /*.navbar-toggle */
 
 
@@ -184,9 +163,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 .welcome-hero{
     display: flex;
     align-items: center;
+    background:url(../images/about/header.jpg)no-repeat;
     justify-content: center;
     position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
     background-size:cover;
     background-position: center;
     height:890px;
@@ -234,7 +213,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     -o-transition: 0.3s linear; 
     transition: 0.3s linear;
 }
-.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#9f00ff;border: 1px solid #9f00ff;}
+.header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background: #1f2c6c;border: 1px solid  #1f2c6c;}
 /*.header-text-area*/
 
 /*-------------------------------------
@@ -248,12 +227,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     color: #3c4258;
     text-transform: initial;
     line-height: 1.8;
+    text-align: center;
 }
 .single-about-txt p {
     font-size: 16px;
     color: #999fb3;
     padding: 35px 0 43px;
-    border-bottom: 1px solid #999fb3;
 }
 .single-about-add-info {
     margin: 35px 0;
@@ -267,19 +246,19 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*.single-about-txt*/
 
 /*.single-about-img */
-.single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
+.single-about-img{position: relative;}
 .single-about-img:before {
     position:  absolute;
     content: " ";
     top: 0;
     left:  0;
-    width: 109%;
+    width: 89%;
     height:  100%;
     background: rgba(31,44,108,.3);
 }
 .single-about-img img {
-    max-width: 500px;
-    height: 468px;
+    width: 3700px;
+    height: 440px;
 }
 .about-list-icon{
     display: flex;
@@ -288,8 +267,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 109%;
-    height: 90px;
+    width: 4%;
+    height: 70px;
     background: #1f2c6c;
 }
 /*.ab-list-icon */
@@ -297,7 +276,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     display: flex;
 }
 .about-list-icon  ul li a {
-    padding-right: 22px;
+    padding-right: 18px;
     cursor:pointer;
     color: #fff;
 }
@@ -320,47 +299,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 
 /*.single-about-img */
 
-/*-------------------------------------
-        5.  Education
---------------------------------------*/
-
-.education {
-    background:  #f9fbfd;
-    padding-top:  50px;
-}
-.education-horizontal-timeline {
-    padding: 80px 0;
-}
-
-/*.education-horizontal-timeline*/
-.education-horizontal-timeline .col-sm-4 {padding:0 2px;}
-
-.single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
-.single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
-.single-horizontal-timeline .timeline-content h5 {margin: 15px 0;}
-.single-horizontal-timeline p {color: #999fb3;max-width: 335px;}
-
-/*.timeline-horizontal-border*/
-.timeline-horizontal-border {
-    display:  flex;
-    align-items: center;
-    padding: 26px 0 30px;
-}
-.timeline-horizontal-border i {
-    font-size:  10px;
-    color: #1f2c6c;
-    margin-right:  5px;
-}
-span.single-timeline-horizontal {
-    display:  inline-block;
-    background: #b2c1ce;
-    height:  1px;
-    width: 380px;
-}
-span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
-/*.timeline-horizontal-border*/
-
-/*.education-horizontal-timeline*/
 
 /*-------------------------------------
         6.  Skills
@@ -414,7 +352,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .tooltip > .tooltip-inner {
    background-color: transparent;
    padding: 1px 5px;
-   color: #b636ff;
+   color:  #1f2c6c;
    font-weight: 500;
    font-size: 12px;
    border-radius: 0;
